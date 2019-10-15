@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:seedjelly/adminUser:password
+  username: admin
+dashboardAuthID: vault:seedjelly:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:seedjelly:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:seedjelly/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:seedjelly/prow:hmacToken
